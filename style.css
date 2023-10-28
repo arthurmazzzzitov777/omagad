@@ -18,6 +18,7 @@ td:hover {
 
 body {
     font-family: 'PT Sans', sans-serif;
+    background-color: #f7daa1;
 }
 
 ul, li {
@@ -80,7 +81,7 @@ h2 {
 }
 
 .offer{
-    margin-top: 117px;
+    margin-top: 30px;
 }
 
 .offer__title {
@@ -125,8 +126,8 @@ body {
 }
 
 .title {
-    padding-top: 100px;
-    padding-bottom: 70px;
+/*    padding-top: 100px;*/
+    padding-bottom: 25px;
 }
 
 .title_main {
@@ -198,9 +199,7 @@ body {
 @media screen and (max-width: 992px);
 
 .footer {
-
-background: #D2691E;
-
+    background: #D2691E;
 }
 
 .footer-info {
@@ -258,22 +257,14 @@ background: #D2691E;
     }
 }
 
-
-ul, li {
-    display: block;
-    padding: 0;
-    margin: 0;
+#address {
+    margin-top:10px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-weight: 700;
-    color: #000
+#button {
+    margin-top: 10px;
 }
 
-h3 {
-    font-weight: 400;
-}
-
-h2 {
-    text-align: center;
+#yavahue{
+    text-shadow: black 2px 3px 4px
 }
