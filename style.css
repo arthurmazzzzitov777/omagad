@@ -18,7 +18,8 @@ td:hover {
 
 body {
     font-family: 'PT Sans', sans-serif;
-    background-color: #f7daa1;
+/*    background-color: #f7daa1;*/
+    background-color: #FFF;
 }
 
 ul, li {
@@ -27,17 +28,13 @@ ul, li {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
     font-weight: 700;
     color: #000
 }
 
 h3 {
     font-weight: 400;
-}
-
-h2 {
-    text-align: center;
 }
 
 /*Панель навигации*/
@@ -265,6 +262,19 @@ body {
     margin-top: 10px;
 }
 
-#yavahue{
-    text-shadow: black 2px 3px 4px
+.socseti{
+    margin-top: 15px;
+}
+
+.socialmedia {
+    margin-right: 20px;
+    fill: black;
+}
+
+.socialmedia:hover {
+    fill: blue;
+}
+
+.belii {
+    background-color: white ;
 }
