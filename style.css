@@ -16,6 +16,13 @@ td:hover {
 
 /*Осн.стили для всех блоков*/
 
+.navbar-brand {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1100;
+  font-style: normal;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
 /*    background-color: #f7daa1;*/
@@ -85,22 +92,36 @@ h3 {
     font-size:32px;
     color: #FFF;
     margin-bottom: 15px;
-    text-shadow: black 2px 3px 4px
+    text-shadow: black 2px 3px 4px;
+
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
 }
 
 .offer__intro {
     font-size: 20px;
     line-height: 1.3em;
-    color: #FFF;
-    text-shadow: black 2px 3px 4px
+    color: #000;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .offer__text {
     font-size: 16px;
-    margin-top:15px;
+    margin-top: 10px;
+    margin-bottom: 1px;
     color: #FFF;
-    width: 400px;
+    width: 700px;
     text-shadow: black 2px 3px 4px;
+
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .icons__item {
@@ -130,11 +151,20 @@ body {
 .title_main {
     font-size: 32px;
     text-align: center;
+
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .title_text {
     font-size: 20px;
     text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 
@@ -201,12 +231,13 @@ body {
 
 .footer-info {
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding: 50px 0 94px;
-    width: 184px;
+    width: ;
     margin: 0 auto;
     text-align: center;
+
 }
 
 @media screen and (max-width: 992px) {
@@ -263,9 +294,7 @@ body {
 }
 
 .socseti{
-    margin-top: 15px;
-    position: absolute;
-    left: 50%;
+/*    margin-top: 15px;*/
 }
 
 .socialmedia {
@@ -278,5 +307,14 @@ body {
 }
 
 .belii {
-    background-color: white ;
+    background-color: white;
+    margin-left: 23rem;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#wassap:hover {
+    fill: green;
 }
