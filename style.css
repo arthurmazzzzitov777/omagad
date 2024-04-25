@@ -302,7 +302,7 @@ body {
 }
 
 .socialmedia {
-    margin-right: 30px;
+    margin-right: 10px;
     fill: black;
 }
 
@@ -312,7 +312,7 @@ body {
 
 .belii {
     background-color: white;
-    margin-left: 23rem;
+/*    margin-left: 23rem;*/
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -321,4 +321,8 @@ body {
 
 #wassap:hover {
     fill: green;
+}
+
+#telega:hover {
+    fill: #1976d2;
 }
