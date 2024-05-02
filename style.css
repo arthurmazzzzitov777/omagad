@@ -178,13 +178,15 @@ body {
 }
 
 .feature__icon {
-    font-size: 50px;
+    font-size: 200px;
     margin-right: 37px;
-    color: #000
+    color: #000;
 }
 
+
+
 .feature__text {
-    color: #000
+    color: #000;
 }
 
 /*Блок обратной связи*/
