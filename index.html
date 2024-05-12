@@ -3,7 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
@@ -19,7 +23,7 @@
 
    <nav class="navbar navbar-expand-xl navbar-light bg-light">
       <div class="container">
-         <a class="navbar-brand" href="#"> <img src="kartinki/logo.png" height="66px" width="213x">   </a>
+         <a class="navbar-brand" href="#"> <img src="img/logo.png" height="66px" width="213px">   </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
          </button>
@@ -51,7 +55,7 @@
 <header id="header" class="header">
     <div class="container"> 
         <div class="row">
-            <div class="col-lg-10/">
+            <div class="col-lg-10">
                 <div class="offer animated fadeInLeft">
                     <h1 class="offer__title">
                         А это, ЧЕлябинск 
@@ -101,7 +105,7 @@
                                 урок химии в челябинске 
 
                             </h3>
-                            <img src="kartinki/химичка.jpg" height="200px" width="300x" >
+                            <img src="img/химичка.jpg" height="200px" width="300x" >
                         </div>
                     </div>
                 </div>
@@ -113,7 +117,7 @@
                             <h3 class="feature__title">
                                 джесси мы едем в челябинск
                             </h3>
-                            <img src="kartinki/уолтер.png" height="200px" width="300px">
+                            <img src="img/уолтер.png" height="200px" width="300px">
                             <p class="feature__text">
                             </p>
                         </div>
@@ -127,7 +131,7 @@
                             <h3 class="feature__title">
                                 обычное утро в челябинске:
                             </h3>
-                            <img src="kartinki/метеорит.jpeg" height="200px" width="300x" >
+                            <img src="img/метеорит.jpeg" height="200px" width="300x" >
                         </div>
                     </div>
                 </div>
@@ -139,7 +143,7 @@
                             <h3 class="feature__title">
                                 эконом такси в челябинске:
                             </h3>
-                            <img src="kartinki/такси.jpg" height="200px" width="300x" >
+                            <img src="img/такси.jpg" height="200px" width="300x" >
                         </div>
                     </div>
                 </div>
@@ -151,7 +155,7 @@
                             <h3 class="feature__title">
                                 типичная окраина в челябинске:
                             </h3>
-                            <img src="kartinki/окраина.jpg" height="200px" width="300x" >
+                            <img src="img/окраина.jpg" height="200px" width="300x" >
                         </div>
                     </div>
                 </div>
@@ -164,26 +168,33 @@
                                 ввп челябинска: (не фейк!!!!)
 
                             </h3>
-                            <img src="kartinki/ввп.jpg" height="200px" width="300x" >
+                            <img src="img/ввп.jpg" height="200px" width="300x" >
                         </div>
                     </div>
                 </div>
             </div>
     </section>
-<div class="container">
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="chel.jpg" alt="First slide">
+      <img src="img/такси.jpg" class="d-block w-100 carousel-img">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="kartinki/гелик.jpg" alt="Second slide">
+      <img src="img/гелик.jpg" class="d-block w-100 carousel-img">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="kartinki/такси.jpg" alt="Third slide">
+      <img src="img/метеорит.jpeg" class="d-block w-100 carousel-img">
     </div>
   </div>
-</div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 <section id="feedback" class="feedback">
@@ -204,42 +215,36 @@
          </div>
       </div>
 
-      <div class="row">
-         <div class="col-lg-10 ml-auto">
-            <form action="#" class="form">
-               <input type="address" id="address" placeholder="Введите ваше имя" class="form_input" required>
-               <input type="address" id="address" placeholder="Введите ваш IP адрес" class="form_input" required>
-            </form>
-            <button type="отправить админу" id="button" class="button">Отправить</button>
-         </div>
-      </div>
-
-   </div>
+    <form action="#" class="form" align="center">
+        <input type="address" id="address" placeholder="Введите ваше имя" class="form_input" required>
+        <input type="address" id="address" placeholder="Введите ваш IP адрес" class="form_input" required>
+        <button type="отправить админу" id="button" class="button form_input">Отправить</button>
+    </form>
 
 </section>
 
 <footer id="footer" class="footer">
    <div class="container">
-      <div class="row">
-         <div class="col-lg-4">
+      <div class="row justify-content-between">
+         <div class="col-3">
             <div class="animated tada">
                 <div class="footer-info">
-                   Контакт:
-                   +7ХХХХХХХХХХ
+                   <p class="titles">Контакт:
+                   +7ХХХХХХХХХХ</p>
                 </div>
              </div>
             </div>
-             <div class="col-lg-4">
+             <div class="col-3">
                 <div class="animated tada">
                     <div class="footer-info">
-                       телеграмм админа: @arthurmazzzzitov 
+                       <p class="titles">телеграмм админа: @arthurmazzzzitov</p> 
                     </div>
                 </div>
              </div>
-             <div class="col-lg-4">
+             <div class="col-3">
                 <div class="animated tada">
                     <div class="footer-info">
-                       скинь на +79875892940 (тинькофф или сбер) 100 руб и получи ничего
+                       <p class="titles">скинь на +79875892940 (тинькофф или сбер) 100 руб и получи ничего</p>
                     </div> 
                 </div>
             </div>         
